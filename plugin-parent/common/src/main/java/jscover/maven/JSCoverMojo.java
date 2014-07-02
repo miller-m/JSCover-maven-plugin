@@ -75,6 +75,8 @@ public abstract class JSCoverMojo extends AbstractMojo {
     }
 
     protected List<File> getTestFiles() throws MojoExecutionException {
+        System.out.println("trying to print my test files");
+        System.out.println(testDirectory.toString());
         return getTestFiles(testDirectory);
     }
 
