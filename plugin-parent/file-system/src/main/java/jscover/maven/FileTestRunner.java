@@ -41,6 +41,10 @@ public class FileTestRunner {
     }
 
     public void runTests(List<File> testPages) throws MojoFailureException, MojoExecutionException {
+        System.out.println("executing run tests!!!!!!!!!!!");
+        for(File thingy : testPages) {
+            System.out.println(thingy.toString());
+        }
         File jsonFile = new File(config.getDestDir() + "/jscoverage.json");
         if (jsonFile.exists())
             jsonFile.delete();
