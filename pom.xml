@@ -9,7 +9,7 @@
         <artifactId>oss-parent</artifactId>
         <version>7</version>
     </parent>
-    <groupId>com.github.tntim96</groupId>
+    <groupId>com.github.miller-m</groupId>
     <artifactId>jscover-maven-plugin</artifactId>
     <version>1.0.6-SNAPSHOT</version>
     <packaging>pom</packaging>
